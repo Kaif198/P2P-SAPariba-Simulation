@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aldi-primary: #003B7A;
+  --color-aldi-accent: #0069B4;
+  --color-aldi-bg: #F8F9FB;
+  --color-aldi-surface: #FFFFFF;
+  --color-aldi-border: #E2E6EA;
+  --color-aldi-text: #1A1A2E;
+  --color-aldi-text-secondary: #5A6478;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  :root {
+    font-family: var(--font-inter);
+    color: var(--color-aldi-text);
+    background-color: var(--color-aldi-bg);
+  }
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 250ms;
+  }
+}

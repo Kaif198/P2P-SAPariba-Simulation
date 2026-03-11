@@ -1,0 +1,27 @@
+src/data/documentData.ts(1,10): error TS1484: 'ProcessDocument' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/data/improvementData.ts(1,10): error TS1484: 'ProcessImprovement' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/data/invoiceData.ts(1,10): error TS1484: 'InvoiceException' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/data/poData.ts(1,10): error TS1484: 'PurchaseOrder' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/data/supplierData.ts(1,10): error TS1484: 'SupplierPerformance' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/ExecutiveOverview.tsx(6,1): error TS6133: 'poData' is declared but its value is never read.
+src/pages/InvoiceMatching.tsx(3,10): error TS1484: 'InvoiceException' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/InvoiceMatching.tsx(4,62): error TS6133: 'Search' is declared but its value is never read.
+src/pages/POManagement.tsx(3,10): error TS1484: 'PurchaseOrder' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/POManagement.tsx(3,25): error TS1484: 'POStatus' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/ProcessDocumentation.tsx(2,10): error TS2305: Module '"../data/documentData"' has no exported member 'documentData'.
+src/pages/ProcessDocumentation.tsx(3,10): error TS1484: 'ProcessDocument' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/ProcessDocumentation.tsx(11,32): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/pages/ProcessDocumentation.tsx(14,21): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+src/pages/ProcessDocumentation.tsx(48,29): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/pages/ProcessDocumentation.tsx(67,43): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+src/pages/ProcessDocumentation.tsx(114,42): error TS2339: Property 'version' does not exist on type 'ProcessDocument'.
+src/pages/ProcessImprovement.tsx(2,10): error TS2305: Module '"../data/improvementData"' has no exported member 'improvementData'.
+src/pages/ProcessImprovement.tsx(3,10): error TS1484: 'ProcessImprovement' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/ProcessImprovement.tsx(3,49): error TS2305: Module '"../data/types"' has no exported member 'ImprovementStatus'.
+src/pages/ProcessImprovement.tsx(53,70): error TS2339: Property 'targetDate' does not exist on type 'ProcessImprovement'.
+src/pages/ProcessImprovement.tsx(56,19): error TS2339: Property 'actualImpact' does not exist on type 'ProcessImprovement'.
+src/pages/ProcessImprovement.tsx(60,46): error TS2339: Property 'actualImpact' does not exist on type 'ProcessImprovement'.
+src/pages/ProcessImprovement.tsx(101,56): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/pages/ProcessImprovement.tsx(115,36): error TS7006: Parameter 'card' implicitly has an 'any' type.
+src/pages/SupplierPerformance.tsx(6,10): error TS1484: 'SupplierPerformance' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/SupplierPerformance.tsx(9,29): error TS6133: 'label' is declared but its value is never read.
